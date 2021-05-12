@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RulerKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char RulerKitVersionString[];
+FOUNDATION_EXPORT double SYJRulerViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char SYJRulerViewVersionString[];
 

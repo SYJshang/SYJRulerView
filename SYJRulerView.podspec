@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RulerKit'
-  s.version          = '1.0.0'
-  s.summary          = 'swift of RulerKit.'
+  s.name             = 'SYJRulerView'
+  s.version          = '1.0.1'
+  s.summary          = 'swift of SYJRulerView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,20 +19,20 @@ Pod::Spec.new do |s|
 
   s.description      = 'The scale of iOS Ruler, including straight ruler and round ruler'
 
-  s.homepage         = 'https://github.com/SYJshang/RulerKit'
+  s.homepage         = 'https://github.com/SYJshang/SYJRulerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SYJshang' => '1334858022@qq.com' }
-  s.source           = { :git => 'https://github.com/SYJshang/RulerKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SYJshang/SYJRulerView.git', :tag => s.version.to_s }
   s.swift_versions = '4.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RulerKit/Classes/**/*'
+  s.source_files = 'SYJRulerView/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'RulerKit' => ['RulerKit/Assets/*.png']
+  #   'SYJRulerView' => ['SYJRulerView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

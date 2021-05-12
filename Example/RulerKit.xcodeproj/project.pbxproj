@@ -275,11 +275,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RulerKit/RulerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SYJRulerView/SYJRulerView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RulerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SYJRulerView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

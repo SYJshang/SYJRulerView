@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'RulerKit_Example' do
-  pod 'RulerKit', :path => '../'
+  pod 'SYJRulerView', :path => '../'
 
   target 'RulerKit_Tests' do
     inherit! :search_paths

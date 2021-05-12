@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7942280226EB2742D68FC5DC2A0B56 /* Pods-RulerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DEF9AD8B0F5B6D1B937322350A595D /* Pods-RulerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A95E1574A028BF84B123B58B39E4CC2 /* RulerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FA50B565929306B8FCE018B9FDF96 /* RulerCollectionViewCell.swift */; };
-		12442E9A960C26A1BD18F515A91D95CC /* RulerRoundRotatePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9206538E5D3BB9AA83C819EEC6C4D /* RulerRoundRotatePanel.swift */; };
+		091A7360E00E8F9B5CE840EA48CEEFBB /* RulerRoundRotatePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6590A854F9D8306DFF0D63618BC18147 /* RulerRoundRotatePanel.swift */; };
+		0F69FC48FCEC54FC68F869EF7F07E76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1164A48CAF20E7830A8E218EF851C549 /* RulerMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18B815AA5B2EB6E89D0E82CF8160D3 /* RulerMachineView.swift */; };
+		1B277547ED11FAACA1BF930373FA115F /* Pods-RulerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C109C014E3A6932DF70D3F6DA54A008D /* Pods-RulerKit_Example-dummy.m */; };
+		3D7179D996C1B68F45AC634D6027E2A2 /* RulerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97007A2484397FF0F13579F2FD2D6CEA /* RulerCollectionViewCell.swift */; };
 		496632A3FBC6A79B2F3C6A51CD32049A /* Pods-RulerKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19F3C8815C86D11B2D983AF3ABDAAF8 /* Pods-RulerKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55A3B2796560A548E19FE3FB1EE8F199 /* RulerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF414A9B962FF5FBDC41BBD36AE962 /* RulerKit-dummy.m */; };
-		7BD9ABE1B02D321D9FB6F588F3EF0B9E /* RulerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FAE071E049258F8200CD2A0FBC1017 /* RulerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FB5F647306ECAA454ACC91FAEC9A266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		925EFA4626683F1E2DAEE6EDE9918911 /* RulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B5B96BF80204D68EF48D4C2301DA9 /* RulerView.swift */; };
-		968E7A7F7AFE1B8D43CA385592CE427C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		70D429D737F4EB663E395362BBDE3A95 /* RulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7C993770B9A5088AD64AE3879B7274 /* RulerView.swift */; };
+		714C09546A4212FA4114B789C9CF185B /* RulerRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6497E082E2E0EAD9C92565AC49071FF /* RulerRoundView.swift */; };
 		9FDDC6BE5DE1B39BFAC277DB94B2087A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A55BF1FAC3A89407DE125506FBAD300C /* RulerMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD726395E3DD211EF433BF11153D0E /* RulerMachineView.swift */; };
+		CB1C5BEC01D986EC8DE59238A0CE778E /* SYJRulerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E94C21B1ACD34D1DA52BE2D60898EA /* SYJRulerView-dummy.m */; };
+		CBFDBC0167B3F532A17B89BCC79C0D57 /* RulerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3211E26163B7F7C66698C91932F828EE /* RulerCollectionViewLayout.swift */; };
 		D778C3EEA44EF22DC52412F6F8DC8318 /* Pods-RulerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 565BA01F9DF624A2EE6B7965AE1A3E72 /* Pods-RulerKit_Tests-dummy.m */; };
-		DE35A7B1C5E5FD1ABA649447C362E695 /* RulerCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B4E97DBEEDDC2EF1A589CB787BA0F3 /* RulerCollectionViewLayout.swift */; };
-		E5E60EF1007BB05EE7EE731E32414952 /* RulerRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37369DA1E12570E6180984597AFE47F9 /* RulerRoundView.swift */; };
-		ECD568B5EAF947022E8FF2E3D41E2176 /* Pods-RulerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C109C014E3A6932DF70D3F6DA54A008D /* Pods-RulerKit_Example-dummy.m */; };
+		D8EB32BDFB83D94A2B16CA5D4F24D97C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2BF2FB62A65E99096C7476CAC65DC5B /* SYJRulerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 641D3EC436340FC69455C9D627C5FF59 /* SYJRulerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67FDACD0D49BE64281B12EE921A5863 /* Pods-RulerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DEF9AD8B0F5B6D1B937322350A595D /* Pods-RulerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D991FAC99C713DA070290F86BB472B6 /* PBXContainerItemProxy */ = {
+		5BFA00B383631C4ECF34AC07262E14F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4AF9DFEF901944BDA158326926CF42E3;
-			remoteInfo = RulerKit;
+			remoteGlobalIDString = 1719877BAE0E0744FC7DF136EEC52646;
+			remoteInfo = SYJRulerView;
 		};
 		9D8DF039335874357DD67E1F34FC88AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,52 +42,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0196DF91CF89EF8515F0F967E8E9B749 /* SYJRulerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYJRulerView.modulemap; sourceTree = "<group>"; };
 		022C2B12ACEDB1BB92476A16DB62C561 /* Pods-RulerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RulerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0879293C85106DEBFC6FCCA310E57FAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0641707AB5F74D8BCD55E55508B9B0F6 /* SYJRulerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYJRulerView.release.xcconfig; sourceTree = "<group>"; };
 		136FB68D1970E90D2906C8A27E888C82 /* Pods-RulerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RulerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F27527D27D8086FD95F57A7353E59ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		29868823CE0975FFBF7F638C733011D6 /* Pods_RulerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RulerKit_Tests.framework; path = "Pods-RulerKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E94C21B1ACD34D1DA52BE2D60898EA /* SYJRulerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYJRulerView-dummy.m"; sourceTree = "<group>"; };
 		2D6EC50E11E907160E4E70B02BA23050 /* Pods-RulerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RulerKit_Example.modulemap"; sourceTree = "<group>"; };
-		37369DA1E12570E6180984597AFE47F9 /* RulerRoundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerRoundView.swift; path = RulerKit/Classes/RulerRoundView.swift; sourceTree = "<group>"; };
-		3ED6EF6648F9C29483EC0208B1BA2A9D /* RulerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RulerKit.debug.xcconfig; sourceTree = "<group>"; };
-		435612D0AC80E6D111638BE5A99FD5B5 /* RulerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RulerKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3211E26163B7F7C66698C91932F828EE /* RulerCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerCollectionViewLayout.swift; path = SYJRulerView/Classes/RulerCollectionViewLayout.swift; sourceTree = "<group>"; };
 		46048830D0484D44C5A01998A1F5B3FD /* Pods-RulerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RulerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BD8B7CF54772EE2BD9554B18C1068A2 /* Pods-RulerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RulerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4CBD726395E3DD211EF433BF11153D0E /* RulerMachineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerMachineView.swift; path = RulerKit/Classes/RulerMachineView.swift; sourceTree = "<group>"; };
-		4E29212A2D4CAF83193973C9280BF818 /* RulerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RulerKit.modulemap; sourceTree = "<group>"; };
-		52503F81696411A4B039943EF5416708 /* RulerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RulerKit-prefix.pch"; sourceTree = "<group>"; };
 		54025CCEBB228064A0FF5CE615AC6F85 /* Pods-RulerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RulerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		565BA01F9DF624A2EE6B7965AE1A3E72 /* Pods-RulerKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RulerKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E3FA50B565929306B8FCE018B9FDF96 /* RulerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerCollectionViewCell.swift; path = RulerKit/Classes/RulerCollectionViewCell.swift; sourceTree = "<group>"; };
+		641D3EC436340FC69455C9D627C5FF59 /* SYJRulerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYJRulerView-umbrella.h"; sourceTree = "<group>"; };
+		6590A854F9D8306DFF0D63618BC18147 /* RulerRoundRotatePanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerRoundRotatePanel.swift; path = SYJRulerView/Classes/RulerRoundRotatePanel.swift; sourceTree = "<group>"; };
 		670246702FF246874B52DB38312AD5E4 /* Pods-RulerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RulerKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6B1C416DF975D65FBB8178E9D48C5A1D /* Pods-RulerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RulerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CDE70A7FEFB868E279263342C708350 /* SYJRulerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYJRulerView-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8F6387F38FE427A13BA9C958E3472414 /* RulerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RulerKit.release.xcconfig; sourceTree = "<group>"; };
-		9460FA53E641FDF9A1C731A589B9C2EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		951B5B96BF80204D68EF48D4C2301DA9 /* RulerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerView.swift; path = RulerKit/Classes/RulerView.swift; sourceTree = "<group>"; };
+		7CD73120A7C88E82B4ED2AD2D3BDA160 /* SYJRulerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYJRulerView.debug.xcconfig; sourceTree = "<group>"; };
+		8C7CDEA4468B7738BB7EF2C5BF6D5B37 /* SYJRulerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYJRulerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9542257F4914A85537BEBB5C3484A82F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		96C7A5D473E0A7F35CF99CF9509BED13 /* Pods-RulerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RulerKit_Example-Info.plist"; sourceTree = "<group>"; };
+		97007A2484397FF0F13579F2FD2D6CEA /* RulerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerCollectionViewCell.swift; path = SYJRulerView/Classes/RulerCollectionViewCell.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B4E97DBEEDDC2EF1A589CB787BA0F3 /* RulerCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerCollectionViewLayout.swift; path = RulerKit/Classes/RulerCollectionViewLayout.swift; sourceTree = "<group>"; };
+		AE7C993770B9A5088AD64AE3879B7274 /* RulerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerView.swift; path = SYJRulerView/Classes/RulerView.swift; sourceTree = "<group>"; };
 		B29BC4FF2CCD50784BA10AFA8D5A299D /* Pods_RulerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RulerKit_Example.framework; path = "Pods-RulerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DEF9AD8B0F5B6D1B937322350A595D /* Pods-RulerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RulerKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		B6FAE071E049258F8200CD2A0FBC1017 /* RulerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RulerKit-umbrella.h"; sourceTree = "<group>"; };
 		B9D8B5A9B6DC14A4DF606B85C5565E99 /* Pods-RulerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RulerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C109C014E3A6932DF70D3F6DA54A008D /* Pods-RulerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RulerKit_Example-dummy.m"; sourceTree = "<group>"; };
 		C19F3C8815C86D11B2D983AF3ABDAAF8 /* Pods-RulerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RulerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C6DF414A9B962FF5FBDC41BBD36AE962 /* RulerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RulerKit-dummy.m"; sourceTree = "<group>"; };
-		D3D9206538E5D3BB9AA83C819EEC6C4D /* RulerRoundRotatePanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerRoundRotatePanel.swift; path = RulerKit/Classes/RulerRoundRotatePanel.swift; sourceTree = "<group>"; };
-		D96C4DE61DF0B08E68D65CCC65B09146 /* RulerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RulerKit-Info.plist"; sourceTree = "<group>"; };
+		C815266DBE493D758B581E5CA816F89C /* SYJRulerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYJRulerView-prefix.pch"; sourceTree = "<group>"; };
 		DA39D01C8CEE2976A218D950146E2838 /* Pods-RulerKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RulerKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		F6690F4F3F31A12DBAE1E5807844F55E /* RulerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RulerKit.framework; path = RulerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB18B815AA5B2EB6E89D0E82CF8160D3 /* RulerMachineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerMachineView.swift; path = SYJRulerView/Classes/RulerMachineView.swift; sourceTree = "<group>"; };
+		E6497E082E2E0EAD9C92565AC49071FF /* RulerRoundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerRoundView.swift; path = SYJRulerView/Classes/RulerRoundView.swift; sourceTree = "<group>"; };
+		F2B6D343619D73C24A0465E6769536B7 /* SYJRulerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYJRulerView.framework; path = SYJRulerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE6F9F44969155B76B78519EF3EB8B7 /* Pods-RulerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RulerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF0A638AFC95D996124E41E65E084D23 /* Pods-RulerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RulerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4763492DD07B15FF47907F1FA4784C21 /* Frameworks */ = {
+		53F890A95D25801BDB28CA89150620FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968E7A7F7AFE1B8D43CA385592CE427C /* Foundation.framework in Frameworks */,
+				0F69FC48FCEC54FC68F869EF7F07E76C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,33 +99,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E35EFA9716647CC21149828E9046AC60 /* Frameworks */ = {
+		DBFC3D306124BFBD7A6522056B9FEF13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB5F647306ECAA454ACC91FAEC9A266 /* Foundation.framework in Frameworks */,
+				D8EB32BDFB83D94A2B16CA5D4F24D97C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22C60A156E25F3B668B1EAE8F89CC002 /* Products */ = {
+		51DEAC37AE147385757981B1DEAA8259 /* SYJRulerView */ = {
 			isa = PBXGroup;
 			children = (
-				B29BC4FF2CCD50784BA10AFA8D5A299D /* Pods_RulerKit_Example.framework */,
-				29868823CE0975FFBF7F638C733011D6 /* Pods_RulerKit_Tests.framework */,
-				F6690F4F3F31A12DBAE1E5807844F55E /* RulerKit.framework */,
+				97007A2484397FF0F13579F2FD2D6CEA /* RulerCollectionViewCell.swift */,
+				3211E26163B7F7C66698C91932F828EE /* RulerCollectionViewLayout.swift */,
+				DB18B815AA5B2EB6E89D0E82CF8160D3 /* RulerMachineView.swift */,
+				6590A854F9D8306DFF0D63618BC18147 /* RulerRoundRotatePanel.swift */,
+				E6497E082E2E0EAD9C92565AC49071FF /* RulerRoundView.swift */,
+				AE7C993770B9A5088AD64AE3879B7274 /* RulerView.swift */,
+				6DBF47ECD6C4269A71B4FAF610471987 /* Pod */,
+				C8E2A8C1429FEEC944F4753C29B623C5 /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3CFAF30B7ACA0C8CAB4085ED3D0E2BCB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				75389D1A4EB089C3C4A97E45586C7F60 /* RulerKit */,
-			);
-			name = "Development Pods";
+			name = SYJRulerView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -136,20 +134,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75389D1A4EB089C3C4A97E45586C7F60 /* RulerKit */ = {
+		6DBF47ECD6C4269A71B4FAF610471987 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5E3FA50B565929306B8FCE018B9FDF96 /* RulerCollectionViewCell.swift */,
-				A0B4E97DBEEDDC2EF1A589CB787BA0F3 /* RulerCollectionViewLayout.swift */,
-				4CBD726395E3DD211EF433BF11153D0E /* RulerMachineView.swift */,
-				D3D9206538E5D3BB9AA83C819EEC6C4D /* RulerRoundRotatePanel.swift */,
-				37369DA1E12570E6180984597AFE47F9 /* RulerRoundView.swift */,
-				951B5B96BF80204D68EF48D4C2301DA9 /* RulerView.swift */,
-				F44CA7A35A878743EDFEDB14DFB23E5B /* Pod */,
-				C462F1DEEA3DCD4A96611D41FAEFABEC /* Support Files */,
+				9542257F4914A85537BEBB5C3484A82F /* LICENSE */,
+				1F27527D27D8086FD95F57A7353E59ED /* README.md */,
+				8C7CDEA4468B7738BB7EF2C5BF6D5B37 /* SYJRulerView.podspec */,
 			);
-			name = RulerKit;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7776ED707E660B015BDAA859C76426C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51DEAC37AE147385757981B1DEAA8259 /* SYJRulerView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7C6F7283035DFD2FCA89C6FC749D4C52 /* Targets Support Files */ = {
@@ -178,28 +178,28 @@
 			path = "Target Support Files/Pods-RulerKit_Example";
 			sourceTree = "<group>";
 		};
-		C462F1DEEA3DCD4A96611D41FAEFABEC /* Support Files */ = {
+		C8E2A8C1429FEEC944F4753C29B623C5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E29212A2D4CAF83193973C9280BF818 /* RulerKit.modulemap */,
-				C6DF414A9B962FF5FBDC41BBD36AE962 /* RulerKit-dummy.m */,
-				D96C4DE61DF0B08E68D65CCC65B09146 /* RulerKit-Info.plist */,
-				52503F81696411A4B039943EF5416708 /* RulerKit-prefix.pch */,
-				B6FAE071E049258F8200CD2A0FBC1017 /* RulerKit-umbrella.h */,
-				3ED6EF6648F9C29483EC0208B1BA2A9D /* RulerKit.debug.xcconfig */,
-				8F6387F38FE427A13BA9C958E3472414 /* RulerKit.release.xcconfig */,
+				0196DF91CF89EF8515F0F967E8E9B749 /* SYJRulerView.modulemap */,
+				29E94C21B1ACD34D1DA52BE2D60898EA /* SYJRulerView-dummy.m */,
+				6CDE70A7FEFB868E279263342C708350 /* SYJRulerView-Info.plist */,
+				C815266DBE493D758B581E5CA816F89C /* SYJRulerView-prefix.pch */,
+				641D3EC436340FC69455C9D627C5FF59 /* SYJRulerView-umbrella.h */,
+				7CD73120A7C88E82B4ED2AD2D3BDA160 /* SYJRulerView.debug.xcconfig */,
+				0641707AB5F74D8BCD55E55508B9B0F6 /* SYJRulerView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RulerKit";
+			path = "Example/Pods/Target Support Files/SYJRulerView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3CFAF30B7ACA0C8CAB4085ED3D0E2BCB /* Development Pods */,
+				7776ED707E660B015BDAA859C76426C1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				22C60A156E25F3B668B1EAE8F89CC002 /* Products */,
+				EE4D6E83B13DAB62FB6F45DF854E96CF /* Products */,
 				7C6F7283035DFD2FCA89C6FC749D4C52 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -228,27 +228,19 @@
 			path = "Target Support Files/Pods-RulerKit_Tests";
 			sourceTree = "<group>";
 		};
-		F44CA7A35A878743EDFEDB14DFB23E5B /* Pod */ = {
+		EE4D6E83B13DAB62FB6F45DF854E96CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0879293C85106DEBFC6FCCA310E57FAE /* LICENSE */,
-				9460FA53E641FDF9A1C731A589B9C2EF /* README.md */,
-				435612D0AC80E6D111638BE5A99FD5B5 /* RulerKit.podspec */,
+				B29BC4FF2CCD50784BA10AFA8D5A299D /* Pods_RulerKit_Example.framework */,
+				29868823CE0975FFBF7F638C733011D6 /* Pods_RulerKit_Tests.framework */,
+				F2B6D343619D73C24A0465E6769536B7 /* SYJRulerView.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		117BB19C0315DED862E0214660B245EC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A7942280226EB2742D68FC5DC2A0B56 /* Pods-RulerKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3A196D1633E46C07422E4F05C2D0514E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,33 +249,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		791BF61214FE92859661F17A2D5D8435 /* Headers */ = {
+		3D332829711250D7971F9122E4A04C6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD9ABE1B02D321D9FB6F588F3EF0B9E /* RulerKit-umbrella.h in Headers */,
+				E67FDACD0D49BE64281B12EE921A5863 /* Pods-RulerKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E141649401946D8113F6546D5F3336D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BF2FB62A65E99096C7476CAC65DC5B /* SYJRulerView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4AF9DFEF901944BDA158326926CF42E3 /* RulerKit */ = {
+		1719877BAE0E0744FC7DF136EEC52646 /* SYJRulerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F6FE5B7862BBA845E9C17FEDA4A278D /* Build configuration list for PBXNativeTarget "RulerKit" */;
+			buildConfigurationList = 26C3B92BB68C07BDE8491FD61CD11774 /* Build configuration list for PBXNativeTarget "SYJRulerView" */;
 			buildPhases = (
-				791BF61214FE92859661F17A2D5D8435 /* Headers */,
-				8A1B39F3E05136107BD67D8BD9B4CF81 /* Sources */,
-				E35EFA9716647CC21149828E9046AC60 /* Frameworks */,
-				F7293E8FCF91DD6BE00D23DC62AF138A /* Resources */,
+				E141649401946D8113F6546D5F3336D8 /* Headers */,
+				776794701D7EF179D78F56FDDB8F5CF9 /* Sources */,
+				53F890A95D25801BDB28CA89150620FA /* Frameworks */,
+				098E9E767A7051E0528B9AFD4D2EBD35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RulerKit;
-			productName = RulerKit;
-			productReference = F6690F4F3F31A12DBAE1E5807844F55E /* RulerKit.framework */;
+			name = SYJRulerView;
+			productName = SYJRulerView;
+			productReference = F2B6D343619D73C24A0465E6769536B7 /* SYJRulerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		81D20BC857F2606C43BBE7CD6B2F9ECA /* Pods-RulerKit_Tests */ = {
@@ -307,17 +307,17 @@
 		};
 		D698F35058650D488F1D40413D10FAF0 /* Pods-RulerKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE116641681A4D74F15B5F0AA15529F5 /* Build configuration list for PBXNativeTarget "Pods-RulerKit_Example" */;
+			buildConfigurationList = 8A683C5A2CA51164991450E320DFCDFD /* Build configuration list for PBXNativeTarget "Pods-RulerKit_Example" */;
 			buildPhases = (
-				117BB19C0315DED862E0214660B245EC /* Headers */,
-				191D2EF97F521EEE508310D518E7496B /* Sources */,
-				4763492DD07B15FF47907F1FA4784C21 /* Frameworks */,
-				13B3A0AAD843C775FA76965F42CB1A50 /* Resources */,
+				3D332829711250D7971F9122E4A04C6F /* Headers */,
+				D733E751A0476E6A4D47EDC1EF163A28 /* Sources */,
+				DBFC3D306124BFBD7A6522056B9FEF13 /* Frameworks */,
+				861A123B8D6875FD0B4AE4DB318C33E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA7078275A09E8D46E918A59F963CD04 /* PBXTargetDependency */,
+				794DD7CE262F7BA4A903D1013ECBF122 /* PBXTargetDependency */,
 			);
 			name = "Pods-RulerKit_Example";
 			productName = "Pods-RulerKit_Example";
@@ -342,19 +342,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 22C60A156E25F3B668B1EAE8F89CC002 /* Products */;
+			productRefGroup = EE4D6E83B13DAB62FB6F45DF854E96CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D698F35058650D488F1D40413D10FAF0 /* Pods-RulerKit_Example */,
 				81D20BC857F2606C43BBE7CD6B2F9ECA /* Pods-RulerKit_Tests */,
-				4AF9DFEF901944BDA158326926CF42E3 /* RulerKit */,
+				1719877BAE0E0744FC7DF136EEC52646 /* SYJRulerView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13B3A0AAD843C775FA76965F42CB1A50 /* Resources */ = {
+		098E9E767A7051E0528B9AFD4D2EBD35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +368,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7293E8FCF91DD6BE00D23DC62AF138A /* Resources */ = {
+		861A123B8D6875FD0B4AE4DB318C33E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,25 +378,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		191D2EF97F521EEE508310D518E7496B /* Sources */ = {
+		776794701D7EF179D78F56FDDB8F5CF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD568B5EAF947022E8FF2E3D41E2176 /* Pods-RulerKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A1B39F3E05136107BD67D8BD9B4CF81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A95E1574A028BF84B123B58B39E4CC2 /* RulerCollectionViewCell.swift in Sources */,
-				DE35A7B1C5E5FD1ABA649447C362E695 /* RulerCollectionViewLayout.swift in Sources */,
-				55A3B2796560A548E19FE3FB1EE8F199 /* RulerKit-dummy.m in Sources */,
-				A55BF1FAC3A89407DE125506FBAD300C /* RulerMachineView.swift in Sources */,
-				12442E9A960C26A1BD18F515A91D95CC /* RulerRoundRotatePanel.swift in Sources */,
-				E5E60EF1007BB05EE7EE731E32414952 /* RulerRoundView.swift in Sources */,
-				925EFA4626683F1E2DAEE6EDE9918911 /* RulerView.swift in Sources */,
+				3D7179D996C1B68F45AC634D6027E2A2 /* RulerCollectionViewCell.swift in Sources */,
+				CBFDBC0167B3F532A17B89BCC79C0D57 /* RulerCollectionViewLayout.swift in Sources */,
+				1164A48CAF20E7830A8E218EF851C549 /* RulerMachineView.swift in Sources */,
+				091A7360E00E8F9B5CE840EA48CEEFBB /* RulerRoundRotatePanel.swift in Sources */,
+				714C09546A4212FA4114B789C9CF185B /* RulerRoundView.swift in Sources */,
+				70D429D737F4EB663E395362BBDE3A95 /* RulerView.swift in Sources */,
+				CB1C5BEC01D986EC8DE59238A0CE778E /* SYJRulerView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +397,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D778C3EEA44EF22DC52412F6F8DC8318 /* Pods-RulerKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D733E751A0476E6A4D47EDC1EF163A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B277547ED11FAACA1BF930373FA115F /* Pods-RulerKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,19 +417,20 @@
 			target = D698F35058650D488F1D40413D10FAF0 /* Pods-RulerKit_Example */;
 			targetProxy = 9D8DF039335874357DD67E1F34FC88AF /* PBXContainerItemProxy */;
 		};
-		AA7078275A09E8D46E918A59F963CD04 /* PBXTargetDependency */ = {
+		794DD7CE262F7BA4A903D1013ECBF122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RulerKit;
-			target = 4AF9DFEF901944BDA158326926CF42E3 /* RulerKit */;
-			targetProxy = 5D991FAC99C713DA070290F86BB472B6 /* PBXContainerItemProxy */;
+			name = SYJRulerView;
+			target = 1719877BAE0E0744FC7DF136EEC52646 /* SYJRulerView */;
+			targetProxy = 5BFA00B383631C4ECF34AC07262E14F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DB3AF8641E057931F81F6BB9A488E62 /* Debug */ = {
+		01D9E39CE6D9E6F7D9AC0CA3990A0DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED6EF6648F9C29483EC0208B1BA2A9D /* RulerKit.debug.xcconfig */;
+			baseConfigurationReference = 54025CCEBB228064A0FF5CE615AC6F85 /* Pods-RulerKit_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -438,28 +439,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RulerKit/RulerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RulerKit/RulerKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RulerKit/RulerKit.modulemap";
-				PRODUCT_MODULE_NAME = RulerKit;
-				PRODUCT_NAME = RulerKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2004A084574029471C3E5FA2ACD187AC /* Release */ = {
+		1476E374CCAA225050FFFA6FB60B1235 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F6387F38FE427A13BA9C958E3472414 /* RulerKit.release.xcconfig */;
+			baseConfigurationReference = B9D8B5A9B6DC14A4DF606B85C5565E99 /* Pods-RulerKit_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -468,18 +471,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RulerKit/RulerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RulerKit/RulerKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RulerKit/RulerKit.modulemap";
-				PRODUCT_MODULE_NAME = RulerKit;
-				PRODUCT_NAME = RulerKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,71 +557,6 @@
 			};
 			name = Debug;
 		};
-		2F997DA47E1B78BFF3C859A83D4AEFE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54025CCEBB228064A0FF5CE615AC6F85 /* Pods-RulerKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5BEE0182F5BBE9117EA79432679B1BEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D8B5A9B6DC14A4DF606B85C5565E99 /* Pods-RulerKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RulerKit_Example/Pods-RulerKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		839256B20B5373304C3E7DB1930C9197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BD8B7CF54772EE2BD9554B18C1068A2 /* Pods-RulerKit_Tests.release.xcconfig */;
@@ -644,6 +583,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEFABC7C8A8C0A1689FDBF454DD7BB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0641707AB5F74D8BCD55E55508B9B0F6 /* SYJRulerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYJRulerView/SYJRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYJRulerView/SYJRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYJRulerView/SYJRulerView.modulemap";
+				PRODUCT_MODULE_NAME = SYJRulerView;
+				PRODUCT_NAME = SYJRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -745,9 +715,48 @@
 			};
 			name = Release;
 		};
+		ECFC0B2D90BEEA2DA0080B375150D424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD73120A7C88E82B4ED2AD2D3BDA160 /* SYJRulerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYJRulerView/SYJRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYJRulerView/SYJRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYJRulerView/SYJRulerView.modulemap";
+				PRODUCT_MODULE_NAME = SYJRulerView;
+				PRODUCT_NAME = SYJRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26C3B92BB68C07BDE8491FD61CD11774 /* Build configuration list for PBXNativeTarget "SYJRulerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC0B2D90BEEA2DA0080B375150D424 /* Debug */,
+				AEFABC7C8A8C0A1689FDBF454DD7BB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -757,29 +766,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8A683C5A2CA51164991450E320DFCDFD /* Build configuration list for PBXNativeTarget "Pods-RulerKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D9E39CE6D9E6F7D9AC0CA3990A0DCF /* Debug */,
+				1476E374CCAA225050FFFA6FB60B1235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		936333ED9CD089864D7C615413DFCBBF /* Build configuration list for PBXNativeTarget "Pods-RulerKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B81137767B7A4D77D68190748F0F56CF /* Debug */,
 				839256B20B5373304C3E7DB1930C9197 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F6FE5B7862BBA845E9C17FEDA4A278D /* Build configuration list for PBXNativeTarget "RulerKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DB3AF8641E057931F81F6BB9A488E62 /* Debug */,
-				2004A084574029471C3E5FA2ACD187AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE116641681A4D74F15B5F0AA15529F5 /* Build configuration list for PBXNativeTarget "Pods-RulerKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F997DA47E1B78BFF3C859A83D4AEFE9 /* Debug */,
-				5BEE0182F5BBE9117EA79432679B1BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

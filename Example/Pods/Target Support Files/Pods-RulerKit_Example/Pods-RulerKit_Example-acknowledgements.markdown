@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## RulerKit
+## SYJRulerView
 
 Copyright (c) 2020 1334858022@qq.com <1334858022@qq.com>
 

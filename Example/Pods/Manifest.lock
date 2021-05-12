@@ -1,16 +1,16 @@
 PODS:
-  - RulerKit (0.2.0)
+  - SYJRulerView (1.0.0)
 
 DEPENDENCIES:
-  - RulerKit (from `../`)
+  - SYJRulerView (from `../`)
 
 EXTERNAL SOURCES:
-  RulerKit:
+  SYJRulerView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RulerKit: f014941291012fd5921080090a1b8376cb4a8c3c
+  SYJRulerView: 9def6363dde7918811e0c1d4eb564cfe62c4286a
 
-PODFILE CHECKSUM: 556fd6a3c915f1108a66d7645559eef50b43527a
+PODFILE CHECKSUM: 007f9281ef5fed50be611053143f37bd9bb8e004
 
 COCOAPODS: 1.10.0

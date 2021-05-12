@@ -1,0 +1,6 @@
+framework module SYJRulerView {
+  umbrella header "SYJRulerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
