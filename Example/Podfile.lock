@@ -1,0 +1,16 @@
+PODS:
+  - RulerKit (0.2.0)
+
+DEPENDENCIES:
+  - RulerKit (from `../`)
+
+EXTERNAL SOURCES:
+  RulerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RulerKit: f014941291012fd5921080090a1b8376cb4a8c3c
+
+PODFILE CHECKSUM: 556fd6a3c915f1108a66d7645559eef50b43527a
+
+COCOAPODS: 1.10.0
